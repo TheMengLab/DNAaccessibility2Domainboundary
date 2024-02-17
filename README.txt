@@ -26,9 +26,10 @@ In the respository ./prepare/data_raw/, there are two files obtained from experi
 ATAC_data.dat: DNA accessibility data presented in four column, ie chrid, start_pos, end_pos, signal value. Here we use ATAC-seq data as an example
 hg19.chrom.sizes: file containing the length of reference genome.
 
+
 In the respository ./boundary_overlap/boundary_exp/Hi-Cdata/chr1/, there are experimental Hi-C data for chromosome 1, which is used as an demo for identify domain boundaries from Hi-C data.
 Also, the respository ./boundary_overlap/boundary_simulation/ is used as an example for identifying the overlaped domain boudnaries separately from Hi-C and simulated random folded chromosome conformation.
-
+Folder ./boundary_overlap/ are present under the brach boundary_overlap and saved as a .tar.gz file. you need to untar the file before running the corresponding scripts
 
 
 The calculation can be roughly divided into 3 steps:
