@@ -39,7 +39,7 @@ command: bash do_simulation.sh
 (3) structure analysis: In this step, we first generate conformation ensembles for each chromsomes, based on which we construct contact matrices at the resolution of 10-kb. Then we calculate the separation score for each 10-kb segment and identify the domain boundaries from these contact matrices. In the meanwhile, we also present the code for calculating the distance matrix between segments in chromosome region chr21:29.38Mb-31.33Mb at the resolution of 30-kb
 command: bash do_analysis.sh
 
-In addition, we also provide the scripte for identify domain boudnaries from Hi-C data and calculating the overlapping between two set of boundaries
+In addition, we also provide the scripte for identify domain boudnaries from Hi-C data and calculating the overlapping between two set of boundaries. Because of the large size of the experimental Hi-C data, these files and scripts are saved as .tar.gz format at the branch of boundary_overlap/. Once you untar the file, you can run the command below:
 command: cd boundary_overlap/ ; bash doall.sh ; cd ../
 
 
