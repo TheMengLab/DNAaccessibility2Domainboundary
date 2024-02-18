@@ -9,7 +9,7 @@ chrid=$1
 dir=../prepare/assign/${chrid}/detail/
 #targetfile=/home/group/code/c/Nucleosome_model/segment_sample/HiC/simulation/single_cell/MD_attraction/compartment_individualcell/part/HSC/openfitting/mm10/chr11_15M_25M/CLP/assign/detail/assign_10kb_rep1.dat
 
-statenum=`nl ../../../../assign/detail/assign_10kb_rep1.dat | tail -n 1 | awk '{print $1}'`
+statenum=`nl tempfile/1.dat | tail -n 1 | awk '{print $1}'`
 
 
 repnum=10
